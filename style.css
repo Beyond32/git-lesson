@@ -76,10 +76,24 @@ body {
   border-radius: 5px;
 }
 
+.profile-change-form {
+  display: flex;
+}
 .profile-change-form input[type="file"] {
   width: 0.1px;
   height: 0.1px;
   opacity: 0;
   position: absolute;
   z-index: -10;
+}
+.student-info-form input {
+  width: 400px;
+  display: flex;
+  padding: 5px 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #6c757d;
+}
+.change-password-form input {
+  display: flex;
 }
