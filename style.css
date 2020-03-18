@@ -60,6 +60,8 @@ body {
 }
 .form {
   margin: 30px 80px;
+  display: flex;
+  /* justify-content: space-between; */
 }
 
 .choose-image {
@@ -74,10 +76,12 @@ body {
   background-color: #6c757d;
   color: #ffff;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .profile-change-form {
   display: flex;
+  justify-content: space-between;
 }
 .profile-change-form input[type="file"] {
   width: 0.1px;
@@ -86,14 +90,44 @@ body {
   position: absolute;
   z-index: -10;
 }
+.student-info-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .student-info-form input {
+  margin: 0px 30px;
   width: 400px;
   display: flex;
-  padding: 5px 15px;
+  padding: 10px 20px;
   margin-bottom: 10px;
   border-radius: 5px;
-  border: 1px solid #6c757d;
+  border: 1px solid #dde1e5;
+}
+.student-info-button {
+  background-color: #6c757d;
+  color: white;
+  width: 400px;
+  padding: 10px 20px;
+  box-shadow: none;
 }
 .change-password-form input {
+  width: 400px;
   display: flex;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #dde1e5;
+}
+.change-password-block input {
+  width: 400px;
+  display: flex;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #dde1e5;
+}
+.change-password-block {
+  display: flex;
+  flex-direction: column;
 }
