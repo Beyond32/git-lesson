@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.panel-link {
+  text-decoration: none;
+}
+.panel-title:hover {
+  color: #f1ffff;
+  transition: 0.5s;
+}
+body {
+  font-family: Arial;
+}
+.home-icon {
+  width: 64px;
+  height: auto;
+}
+
+.panel {
+  display: flex;
+  align-items: center;
+}
+.control-panel {
+  padding: 5px 50px;
+  background-color: #1b5589;
+  display: flex;
+  justify-content: space-between;
+}
+.panel-title {
+  /* display: inline-block; */
+  font-size: 15px;
+  color: #8babc6;
+  padding-left: 20px;
+}
