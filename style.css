@@ -33,3 +33,53 @@ body {
   color: #8babc6;
   padding-left: 20px;
 }
+
+.profile-settings {
+  margin-top: 20px;
+}
+.profile-title {
+  font-size: 35px;
+  font-weight: normal;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.form-info {
+  background-color: #cce5ff;
+  border-radius: 10px;
+  margin: 0px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info-text {
+  color: #2f60a6;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  padding: 15px 100px;
+}
+.form {
+  margin: 30px 80px;
+}
+
+.choose-image {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 250px;
+}
+.choose-photo {
+  margin-top: 10px;
+  padding: 10px 30px;
+  background-color: #6c757d;
+  color: #ffff;
+  border-radius: 5px;
+}
+
+.profile-change-form input[type="file"] {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  position: absolute;
+  z-index: -10;
+}
