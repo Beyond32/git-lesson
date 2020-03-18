@@ -35,41 +35,69 @@
         <p class="info-text">student's info</p>
         <p class="info-text">change password</p>
       </div>
-      <div class="form">
-        <form class="profile-change-form" action="" method="POST">
-          <div class="choose-image">
-            <div><img src="img/av_256.png" alt="#" /></div>
-            <div>
-              <input
-                type="file"
-                accept="image/jpeg,image/png"
-                name="avatar-change"
-                id="choose-photo"
-              />
-              <label class="choose-photo" for="choose-photo"
-                >Choose photo
-              </label>
-            </div>
+    </div>
+    <!--  -->
+    <div class="form">
+      <form class="profile-change-form" action="" method="POST">
+        <div class="choose-image">
+          <div><img src="img/av_256.png" alt="#" /></div>
+          <div>
+            <input
+              type="file"
+              accept="image/jpeg,image/png"
+              name="avatar-change"
+              id="choose-photo"
+            />
+            <label class="choose-photo" for="choose-photo">Choose photo </label>
           </div>
-          <div class="student-info-form">
-            <input placeholder="First name" type="text" name="" id="" />
-            <input placeholder="First name" type="text" name="" id="" />
-            <input placeholder="First name" type="text" name="" id="" />
-            <input placeholder="First name" type="text" name="" id="" />
-            <input placeholder="First name" type="text" name="" id="" />
-            <input placeholder="First name" type="text" name="" id="" />
-            <button class="student-info-button">Save changes</button>
+        </div>
+        <div class="student-info-form">
+          <input
+            placeholder="First name"
+            pattern="[A-Za-z]{0,15}"
+            type="text"
+            name=""
+            id=""
+          />
+          <input
+            placeholder="Last name"
+            pattern="[A-Za-z]{0,15}"
+            type="text"
+            name=""
+            id=""
+          />
+          <input placeholder="Email" type="email" name="" id="" />
+          <input
+            placeholder="Phone number"
+            pattern="[0-9]{0,16}"
+            type="text"
+            name=""
+            id=""
+          />
+          <input
+            placeholder="Adress"
+            pattern="[A-Za-z0-9]{0,30}"
+            type="text"
+            name=""
+            id=""
+          />
+          <input placeholder="FB link" type="text" name="" id="" />
+          <button class="student-info-button">Save changes</button>
+        </div>
+        <form class="password-change-form" action="" method="POST">
+          <div class="change-password-block">
+            <input placeholder="Old password" type="password" name="" id="" />
+            <input placeholder="New password" type="password" name="" id="" />
+            <input
+              placeholder="Repeat password"
+              type="password"
+              name=""
+              id=""
+            />
+            <button class="student-info-button">Change password</button>
           </div>
-          <form class="password-change-form" action="" method="POST">
-            <div class="change-password-block">
-              <input placeholder="First name" type="text" name="" id="" />
-              <input placeholder="First name" type="text" name="" id="" />
-              <input placeholder="First name" type="text" name="" id="" />
-              <button class="student-info-button">Change password</button>
-            </div>
-          </form>
         </form>
-      </div>
+      </form>
     </div>
   </body>
 </html>
